@@ -9,6 +9,12 @@
   background: red;
 }
 
+.left-container {
+  border: 10px solid black;
+  display: flex;
+  float: left;
+}
+
 .left-container div {
   width: 50px;
   height: 100%;

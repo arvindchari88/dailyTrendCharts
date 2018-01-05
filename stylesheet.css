@@ -1,12 +1,18 @@
-body {
-    background-color: powderblue;
+#container {
+  height: 125px;
+  text-align: justify;
+  border: 10px solid black;
+  font-size: 0.1px; /* IE 9/10 don't like font-size: 0; */
+  min-width: 600px;
 }
-h1 {
-    color: blue;
+#container div {
+  width: 150px;
+  height: 125px;
+  display: inline-block;
+  background: red;
 }
-p {
-    color: red;
-}
-.mydiv {
-    border: dotted 1px black
+#container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
 }

@@ -7,3 +7,6 @@ h1 {
 p {
     color: red;
 }
+.mydiv {
+    border: dotted 1px black
+}
